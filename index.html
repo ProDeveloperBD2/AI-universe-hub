@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- bootstrap end -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awsome start -->
+    <script src="https://kit.fontawesome.com/4d4075f3ca.js" crossorigin="anonymous"></script>
+    <!-- font awsome end -->
+    <title>AI-Universe-Hub | API Assignment</title>
+</head>
+
+<body>
+    <header class="mb-5">
+
+        <h1 class="text-center mb-3 mt-3">AI Universe Hub</h1>
+        <a class="btn bg-danger-subtle mx-auto-css fw-medium text-danger" href="">LOAD DATA</a>
+
+    </header>
+    <main>
+        <section class="container mb-5">
+            <div id="tools-container" class="row row-cols-1 row-cols-md-3 g-4">
+            </div>
+        </section>
+        <section>
+
+            <!-- Modal -->
+            <div class="modal fade" id="toolsModal" tabindex="-1" aria-labelledby="toolsModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content w-css2">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="toolsModalLabel"></h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div id="tools-body" class="modal-body  px-5 py-4">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div id="loader" class="d-none">
+                <div style="margin-top: 170px;" class="d-flex justify-content-center">
+                    <div class="spinner-border text-danger bg-danger-subtle" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- bootstrap start -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap end -->
+    <!-- javascript start -->
+    <script src="js/index.js"></script>
+    <!-- javascript end -->
+</body>
+
+</html>
